@@ -9,8 +9,7 @@ website:
       - href: index.qmd
         text: "Home"
       - about.qmd
-      - href: QuickStart.qmd
-        text: "Start"
+
 
 format:
   html:
