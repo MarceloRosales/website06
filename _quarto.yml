@@ -7,10 +7,10 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: "Home"
       - about.qmd
       - href: QuickStart.qmd
-        text: Start
+        text: "Start"
 
 format:
   html:
