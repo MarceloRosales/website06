@@ -1,1 +1,7 @@
-/Users/marcelorosales/SynologyDrive/GitHub/all_qmd/floating_files/symlink.qmd
+---
+title: "symlink"
+---
+
+Symlink test01
+
+adding line test 01
