@@ -18,3 +18,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }} # Set in github  
           local-dir: ./
           remote-dir: ./public_html/ftptest02/ # or subdomain folder
+          
