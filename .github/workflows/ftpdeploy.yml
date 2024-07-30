@@ -1,0 +1,20 @@
+name: 🚀 FTP Deploy
+on:
+  push:
+    branches:
+      - gh-pages
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: website06.rosalesjm.top # Subdomain name 
+          username: ${{ secrets.FTP_USERNAME }} # Set in github  
+          password: ${{ secrets.FTP_PASSWORD }} # Set in github  
+          local-dir: ./docs/
+          remote-dir: ./public_html/ftptest02/ # or subdomain folder
