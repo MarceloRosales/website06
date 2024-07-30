@@ -1,10 +1,17 @@
 [
   {
+    "objectID": "symlink.html",
+    "href": "symlink.html",
+    "title": "symlink",
+    "section": "",
+    "text": "Symlink test01\nadding line test 01"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "website06",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\nadding a new line\nadd a new line after setting the webhook"
   },
   {
     "objectID": "about.html",
