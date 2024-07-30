@@ -16,5 +16,5 @@ jobs:
           server: website06.rosalesjm.top # Subdomain name 
           username: ${{ secrets.FTP_USERNAME }} # Set in github  
           password: ${{ secrets.FTP_PASSWORD }} # Set in github  
-          local-dir: ./docs/
+          local-dir: ./
           remote-dir: ./public_html/ftptest02/ # or subdomain folder
